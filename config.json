@@ -1,0 +1,428 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "com.proximussuperapp.mobile",
+    "appName": "Proximus Super App",
+    "bundleName": {
+        "main": "ProximusSuperAp",
+        "dev": "ProximusSupeDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": false
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": false
+    },
+    "permissions": [
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Network State",
+            "name": "android.permission.ACCESS_NETWORK_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Wifi State",
+            "name": "android.permission.ACCESS_WIFI_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Account Manager",
+            "name": "android.permission.ACCOUNT_MANAGER",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Activity Recognition",
+            "name": "android.permission.ACTIVITY_RECOGNITION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Add Voicemail",
+            "name": "android.permission.ADD_VOICEMAIL",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Answer Phone Calls",
+            "name": "android.permission.ANSWER_PHONE_CALLS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Battery Stats",
+            "name": "android.permission.BATTERY_STATS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bind Input Method",
+            "name": "android.permission.BIND_INPUT_METHOD",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bind NFC Service",
+            "name": "android.permission.BIND_NFC_SERVICE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bluetooth",
+            "name": "android.permission.BLUETOOTH",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Admin",
+            "name": "android.permission.BLUETOOTH_ADMIN",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Privileged",
+            "name": "android.permission.BLUETOOTH_PRIVILEGED",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Body Sensors",
+            "name": "android.permission.BODY_SENSORS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Broadcast Sticky",
+            "name": "android.permission.BROADCAST_STICKY",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Call Phone",
+            "name": "android.permission.CALL_PHONE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Call Privileged",
+            "name": "android.permission.CALL_PRIVILEGED",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Camera",
+            "name": "android.permission.CAMERA",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Capture Audio Output",
+            "name": "android.permission.CAPTURE_AUDIO_OUTPUT",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Change Network State",
+            "name": "android.permission.CHANGE_NETWORK_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Change Configuration",
+            "name": "android.permission.CHANGE_CONFIGURATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Change Wifi-multicast State",
+            "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Change Wifi State",
+            "name": "android.permission.CHANGE_WIFI_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Expand Status-bar",
+            "name": "android.permission.EXPAND_STATUS_BAR",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Foreground Service",
+            "name": "android.permission.FOREGROUND_SERVICE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Get Accounts",
+            "name": "android.permission.GET_ACCOUNTS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Location Hardware",
+            "name": "android.permission.LOCATION_HARDWARE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Modify Phone State",
+            "name": "android.permission.MODIFY_PHONE_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "NFC",
+            "name": "android.permission.NFC",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "NFC Preferred Payment Info",
+            "name": "android.permission.NFC_PREFERRED_PAYMENT_INFO",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "NFC Transaction Event",
+            "name": "android.permission.NFC_TRANSACTION_EVENT",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Calendar",
+            "name": "android.permission.READ_CALENDAR",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Call Log",
+            "name": "android.permission.READ_CALL_LOG",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Contacts",
+            "name": "android.permission.READ_CONTACTS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Phone Numbers",
+            "name": "android.permission.READ_PHONE_NUMBERS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Phone State",
+            "name": "android.permission.READ_PHONE_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read Precise Phone State",
+            "name": "android.permission.READ_PRECISE_PHONE_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read SMS",
+            "name": "android.permission.READ_SMS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Receive Boot Completed",
+            "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Record Audio",
+            "name": "android.permission.RECORD_AUDIO",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Set Alarm",
+            "name": "android.permission.SET_ALARM",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Set Time",
+            "name": "android.permission.SET_TIME",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Set Time Zone",
+            "name": "android.permission.SET_TIME_ZONE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Set Wallpaper",
+            "name": "android.permission.SET_WALLPAPER",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Status Bar",
+            "name": "android.permission.STATUS_BAR",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Use Biometric",
+            "name": "android.permission.USE_BIOMETRIC",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fingerprint",
+            "name": "android.permission.USE_FINGERPRINT",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Use Full Screen Intent",
+            "name": "android.permission.USE_FULL_SCREEN_INTENT",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Vibrate",
+            "name": "android.permission.VIBRATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Wake Lock",
+            "name": "android.permission.WAKE_LOCK",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Write Calendar",
+            "name": "android.permission.WRITE_CALENDAR",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Write Contacts",
+            "name": "android.permission.WRITE_CONTACTS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Accept Handover",
+            "name": "android.permission.ACCEPT_HANDOVER",
+            "platform": "android",
+            "required": false
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "",
+            "enabled": false
+        },
+        "maps": {
+            "value": "AIzaSyCTHmZu9vwK0ru82AYFUVuRBcz9YrY_IeQ",
+            "enabled": true
+        },
+        "mapsIos": {
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": true
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": true
+        },
+        "firebaseIos": {
+            "enabled": true
+        },
+        "localNotifications": {
+            "enabled": true
+        },
+        "appCenterOTA": {
+            "enabled": false
+        },
+        "nativeOTA": {
+            "enabled": false
+        }
+    }
+}
