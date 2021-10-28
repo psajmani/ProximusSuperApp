@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "1034205561836",
+    "project_id": "proximussuperapp",
+    "storage_bucket": "proximussuperapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034205561836:android:be1a0f8d46093861cc36c9",
+        "android_client_info": {
+          "package_name": "PavneetProximus.developerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPGaLyCkLJrYC6PNyU-MGkxnWtV6KMRwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034205561836-kidc3803cnqq7nvif1i4ssd94fpchtec.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.proximussuperapp.mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034205561836:android:224f1aa9f50eb793cc36c9",
+        "android_client_info": {
+          "package_name": "com.proximussuperapp.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPGaLyCkLJrYC6PNyU-MGkxnWtV6KMRwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034205561836-kidc3803cnqq7nvif1i4ssd94fpchtec.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.proximussuperapp.mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034205561836:android:fcf86915feab3872cc36c9",
+        "android_client_info": {
+          "package_name": "com.proximussuperapp.mobile.developerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPGaLyCkLJrYC6PNyU-MGkxnWtV6KMRwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034205561836-pi9q5f34gecgeeu861aq5re6e2au4ugm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034205561836-kidc3803cnqq7nvif1i4ssd94fpchtec.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.proximussuperapp.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
